@@ -39,6 +39,18 @@ let homeSwiper = new Swiper(".home-swiper", {
         clickable: true,
       },
 })
+let prodSwiper = new Swiper(".prod-swiper", {
+    spaceBetween: 30,
+    loop: 'true',
+    autoplay: {
+        delay: 7000,
+        disableOnInteraction:false,
+      },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+})
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
@@ -50,11 +62,18 @@ window.addEventListener('scroll', scrollHeader)
 
 /*=============== NEW SWIPER ===============*/
 let newSwiper = new Swiper(".new-swiper", {
+    autoplay: {
+        delay: 500,
+        disableOnInteraction:false,
+      },
     centeredSlides: true,
     slidesPerView: "auto",
     loop: 'true',
     spaceBetween: 16,
+
+    
 });
+
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
@@ -94,6 +113,6 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
-sr.reveal(`.category__data, .trick__content, .footer__content`,{interval: 100})
+sr.reveal(`.category__data, .footer__content`,{interval: 100})
 sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
 sr.reveal(`.about__img, .discount__data`,{origin: 'right'})

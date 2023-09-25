@@ -1,0 +1,15 @@
+{
+  "name": "responsive-halloween-website",
+  "version": "1.0.0",
+  "description": "- Responsive Halloween Website Using HTML, CSS & JavaScript.\r - Contains animations when scrolling.\r - It has three color designs (green, red and black)\r - Smooth scrolling in each section.\r - Developed first with the Mobile First methodology, then for desktop.\r - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/styles.scss assets/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1"
+  }
+}

@@ -1,0 +1,37 @@
+/*=============== DISCOUNT ===============*/
+.contact{
+    &__container{
+        background: var(--container-color);
+        border-radius: 1rem;
+        padding: 2.5rem 0 1.5rem;
+        column-gap: 7rem;
+    }
+    &__data{
+        text-align: center;
+    }
+    &__title{
+        font-size: var(--h2-font-size);
+        margin-bottom: var(--mb-2);
+    }
+    &__img{
+        width: 200px;
+        justify-self: center;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__input{
+        margin-bottom: 1.75rem;
+        padding: 0.75rem;
+        width: 100%;
+        background: transparent;
+        border: 1px orange solid;
+        border-radius: 10px;
+        outline: none;
+    }
+    &__input::placeholder{
+        color: white;
+    }
+}

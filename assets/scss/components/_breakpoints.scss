@@ -131,6 +131,23 @@
             padding-right: 6rem;
         }
     }
+    .contact{
+        &__container{
+            grid-template-columns: repeat(2, max-content);
+            justify-content: center;
+            align-items: center;
+            column-gap: 3rem;
+            padding: 3rem 0;
+            border-radius: 3rem;
+        }
+        &__img{
+            width: 350px;
+            order: -1;
+        }
+        &__data{
+            padding-right: 6rem;
+        }
+    }
 
     .newsletter__container{
         grid-template-columns: .5fr;
