@@ -12,8 +12,8 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
   /* Green gradient */
   /* Purple gradient */
-  --body-color: linear-gradient(90deg, hsl(183, 75%, 30%) 0%, hsl(265, 19%, 34%) 100%);
-  --container-color: linear-gradient(136deg, hsl(183, 74%, 33%) 0%, hsl(103, 26%, 38%) 100%);
+  --body-color: linear-gradient(90deg, hsl(131, 97%, 15%) 0%, hsl(265, 19%, 34%) 100%);
+  --container-color: linear-gradient(136deg, hsl(136, 93%, 17%) 0%, hsl(103, 26%, 38%) 100%);
   /* Red gradient */
   /* Gray solid */
   /*========== Font and typography ==========*/
@@ -322,6 +322,7 @@ button {
   margin-bottom: var(--mb-2); }
 
 .about__img {
+  height: 400px;
   width: 200px;
   justify-self: center; }
 
@@ -564,9 +565,9 @@ button {
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .6rem;
-  background: #413e3e; }
+  background: #ffffff; }
   ::-webkit-scrollbar-thumb {
-    background: #272525;
+    background: #ffffff;
     border-radius: .5rem; }
 
 /*===============  BREAKPOINTS ===============*/
@@ -775,7 +776,7 @@ button {
   padding: 0.75rem;
   width: 100%;
   background: transparent;
-  border: 1px orange solid;
+  border: 1px rgb(255, 254, 252) solid;
   border-radius: 10px;
   outline: none; }
 
